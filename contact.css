@@ -1,0 +1,92 @@
+@font-face {
+    font-family: pokeFont;
+    src: url(./assets/fonts/pokemon-emerald.ttf);
+  }
+  a:active, a:hover, a:link, a:visited{
+    text-decoration: none;
+    color: white;
+  }
+  li {
+      list-style: none;
+      text-decoration: none;
+  }
+  .item{
+      font-family: 'Teko', sans-serif;
+      font-size: 2rem;
+      border: 5px solid transparent;
+      color: white;
+      text-shadow: 2px 2px black;
+      font-weight: bold;
+  }
+  .ball{
+    height: 2.3rem;
+  }
+  .caret{
+    filter: drop-shadow(2px 2px rgba(0, 0, 0, 1))
+  }
+  .title{
+    font-family: 'Teko', sans-serif;
+    font-size: 7rem;
+    color: #87908c;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+  }
+  .text{
+    font-family: pokeFont;
+    font-size: 3rem;
+    color: #87908c;
+    text-shadow: 2px 2px black;
+  }
+  .header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(to right, #950224 5%, #f91d37 10% 90%, #950224 95%);
+      display: flex;
+      flex-direction: row;
+      padding-left: 30px;
+      border-bottom: 7px solid black;
+  }
+    .main{
+      width: 100%;
+      min-height: calc(100vh - 25px - 70px);
+      margin: 65px auto 25px;
+      background-color: white;
+      background-image: linear-gradient(#878787 .3rem, transparent .3rem), linear-gradient(90deg, #878787 .3rem, transparent .3rem);
+      background-size: 10rem 10rem;
+      background-position: -0.1rem -0.1rem;
+      display: grid;
+      grid-template-rows: 1.2fr 1fr 1fr 1fr;
+      padding: 0px;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        max-width: 1920px;
+        min-width: 850px;
+        padding: 20px;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: 5px solid black;
+        border-radius: 15px;
+        width: 100%;
+        max-width: 950px;
+        padding-left: 50px;
+        background: linear-gradient(to right, #f91d37 45px, #ff7c79 45px 50px, white 50px);
+        box-shadow: 10px 10px #c2bbba;
+    }
+
+    .footer {
+      background-color: white;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
