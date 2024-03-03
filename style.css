@@ -2,7 +2,11 @@
     font-family: pokeFont;
     src: url(./assets/fonts/pokemon-emerald.ttf);
 }
-
+@font-face {
+    font-family: Impacto;
+    font-weight: bold;
+    src: url(./assets/fonts/impact.ttf);
+  }
 @media screen and (min-width: 75px) {
     a:active, a:hover, a:link, a:visited{
         text-decoration: none;
@@ -35,7 +39,7 @@
         background: linear-gradient(to right, #950224 5%, #f91d37 10% 90%, #950224 95%);
         display: flex;
         flex-direction: row;
-        padding-left: 10px;
+        padding-left: 5px;
         border-bottom: 7px solid black;
     }
     .contentText{
@@ -45,7 +49,7 @@
       text-shadow: 1px 1px black;
     }
     .typeText{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Impacto;
         font-size: 1rem;
         color: white;
         text-shadow: 2px 2px #949192;
@@ -126,19 +130,11 @@
     }
     .gamerType{
         background-color: #A040A0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        max-width: 250px;
-        max-height: 100px;
-        border-radius: 15px;
-        margin: 12px;
-        box-shadow: 0px -1px 2px 0px #000000 inset, 0px 2px 7px 1px #000;
     }
     .programmerType{
         background-color: #B8B8D0;
+    }
+    .programmerType, .gamerType{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -282,7 +278,7 @@
         background: linear-gradient(to right, #950224 5%, #f91d37 10% 90%, #950224 95%);
         display: flex;
         flex-direction: row;
-        padding-left: 30px;
+        padding-left: 10px;
         border-bottom: 7px solid black;
     }
     .contentText{
@@ -292,7 +288,7 @@
       text-shadow: 1px 1px black;
     }
     .typeText{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Impacto;
         font-size: 1rem;
         color: white;
         text-shadow: 2px 2px #949192;
@@ -536,7 +532,7 @@
       text-shadow: 1px 1px black;
     }
     .typeText{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Impacto;
         font-size: 2rem;
         color: white;
         text-shadow: 2px 2px #949192;
@@ -618,19 +614,11 @@
     }
     .gamerType{
         background-color: #A040A0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        max-width: 250px;
-        max-height: 100px;
-        border-radius: 15px;
-        margin: 12px;
-        box-shadow: 0px -1px 2px 0px #000000 inset, 0px 2px 7px 1px #000;
     }
     .programmerType{
         background-color: #B8B8D0;
+    }
+    .programmerType, .gamerType{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -743,4 +731,4 @@
         left: 0;
         width: 100%;
     }
-}    
+}
