@@ -205,7 +205,6 @@
       height: 100%;
       max-width: 850px;
       max-height: 375px;
-      min-width: 375px;
       padding: 0;
       border-radius: 15px;
       border: 5px solid black;
@@ -218,7 +217,6 @@
       height: 100%;
       max-width: 850px;
       max-height: 815px;
-      min-width: 375px;
       border-radius: 15px;
       border: 5px solid black;
       box-shadow: 10px 10px #c2bbba;
